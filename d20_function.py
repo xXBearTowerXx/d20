@@ -31,3 +31,15 @@ def d20():
         roll_again = input("wanna roll the dice again? ")
     if roll_again == "fuck you":
         print("No U!")
+    if roll_again == "No u!" and n == 20:
+        print("Impossible!")
+        sleep(1)
+        print("This is not how you use the uno reverse card!")
+        sleep(2)
+        print("By doing this you created a time paradox!")
+        sleep(2)
+        print("this whole timeline will cease to exi-")
+        sleep(2)
+        print("\n" * 100)
+    if roll_again == "No u!" and n < 20:
+        print("hahah you don't hold such power!")
