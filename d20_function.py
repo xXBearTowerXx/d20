@@ -29,3 +29,5 @@ def d20():
             print("you bent the reality to your own will")
         sleep(1)
         roll_again = input("wanna roll the dice again? ")
+    if roll_again == "fuck you":
+        print("No U!")
