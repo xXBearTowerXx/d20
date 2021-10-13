@@ -3,7 +3,7 @@ def d20():
     from time import sleep
     min = 1
     max = 20
-    
+
     roll_again= "yes"
     while roll_again == "yes" or roll_again == "y":
         print("Rolling the dice...")
@@ -43,3 +43,6 @@ def d20():
         print("\n" * 100)
     if roll_again == "No u!" and n < 20:
         print("hahah you don't hold such power!")
+
+if __name__ == '__main__':
+    d20()
